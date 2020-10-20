@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenu {
+    height: 100%;
+    padding: 20px;
+}
+
+
+.carte{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+@media ( min-width : 1025px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contenu {
+        background-color:#FF5964;
+        width: 95%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .carte {
+        flex-direction: row;
+        height: 85%;
+        width: 80%;
+        border-radius: 15px;
+    }
+    .princ{
+        border-radius: 70px;
+        position: absolute;
+        top: 55px;
+        left:45%;
+    }
+    h5{
+    position: absolute;
+    top:0px;
+    text-align: center;
+    left: 400px;
+    font-size:30px;
+
+    }
+    p{
+
+    text-align: center;
+    font-size:20px;
+    }
+   .a1{
+    position: absolute;
+    bottom: 0px;
+    left:45%;
+   }
+   .a2{
+    position: absolute;
+    bottom: 0px;
+    left:35%;
+   }
+   .fb{
+    border-radius:20px;
+   }
+
+.a3{
+    position: absolute;
+    bottom: 0px;
+    left:55%;
+   }
+.a3:hover{
+  left:60%;
+}
+.a2:hover{
+  left:30%;
+}
+.a1:hover{
+  bottom:10%;
+}
+
